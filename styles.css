@@ -56,6 +56,7 @@ h2 { font-size: clamp(1.35rem, 3vw, 1.65rem); line-height: 1.25; letter-spacing:
 .icon-score { background: #e4f1fd; color: #1b659f; }
 .icon-tournament { background: #e8f4ee; color: #217753; }
 .icon-ideas { background: #f1ebfa; color: #7953a3; }
+.icon-diploma { background: #fbf0db; color: #956c28; }
 .card-category { color: #647689; font-size: .66rem; line-height: 1.45; letter-spacing: .075em; font-weight: 760; text-align: right; padding-top: 8px; }
 .app-card h3 { font-size: 1.31rem; letter-spacing: -.035em; line-height: 1.25; margin-bottom: 11px; }
 .app-card p { color: var(--text-secondary); line-height: 1.58; font-size: .91rem; margin-bottom: 14px; }
@@ -110,7 +111,7 @@ h2 { font-size: clamp(1.35rem, 3vw, 1.65rem); line-height: 1.25; letter-spacing:
   .site-footer { flex-direction: row; justify-content: space-between; text-align: left; }
 }
 @media (min-width: 800px) {
-  .app-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+  .app-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
   .site-header { padding-bottom: 55px; }
   .app-card:hover { transform: translateY(-3px); border-color: #cad9e6; box-shadow: 0 15px 38px rgba(24, 54, 79, .095); }
 }

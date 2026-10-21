@@ -3,7 +3,7 @@
 // Enlace público definitivo del portal. Compartirlo será útil cuando GitHub Pages esté activado.
 const PORTAL_URL = "https://juegolimpio.github.io/apps/";
 const PORTAL_NAME = "Mis herramientas digitales";
-const SHARE_TEXT = "Accedé a estas herramientas digitales gratuitas: Tanteador, Torneo Fácil y Generador de ideas para IA.";
+const SHARE_TEXT = "Accedé a estas herramientas digitales gratuitas: Tanteador, Torneo Fácil, Generador de ideas para IA y Generador de Diplomas.";
 
 const shareButton = document.getElementById("share-button");
 const shareStatus = document.getElementById("share-status");
